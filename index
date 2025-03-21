@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页 - [keyiding]</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="hero-content">
+            <h1>你好，我是 [你的名字]</h1>
+            <p>一名ToB产品经理</p>
+            <a href="#about-me" class="btn">了解更多</a>
+        </div>
+    </div>
+
+    <section id="about-me" class="section">
+        <div class="container">
+            <h2>关于我</h2>
+            <p>作为一名产品经理，我致力于通过用户研究、数据分析和跨团队协作，推动产品从构想到实现。我喜欢与团队一起探索问题，找到最优的解决方案，并持续迭代优化产品。</p>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>我的技能</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <h3>用户体验设计</h3>
+                    <p>通过用户调研与体验测试，设计出符合用户需求的产品界面。</p>
+                </div>
+                <div class="skill">
+                    <h3>产品规划与管理</h3>
+                    <p>制定产品路线图，进行需求分析、优先级排序，推动项目进度。</p>
+                </div>
+                <div class="skill">
+                    <h3>数据分析</h3>
+                    <p>使用数据分析工具，监控产品的运营数据，并根据数据优化产品体验。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>联系方式</h2>
+            <p>欢迎联系我！以下是我的联系方式：</p>
+            <ul>
+                <li>Email: [你的邮箱]</li>
+                <li>GitHub: [你的GitHub链接]</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 [keyi]. 版权所有.</p>
+    </footer>
+</body>
+</html>
